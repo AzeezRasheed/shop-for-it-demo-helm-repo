@@ -12,6 +12,6 @@ spec:
   type: {{ .Values.service.type }}
   ports:
     - name: web
-    port: {{ .Values.service.port }}
+      port: {{ .Values.service.port }}
   selector:
     app: {{ .Release.Name }}-{{ .Chart.Name }}
