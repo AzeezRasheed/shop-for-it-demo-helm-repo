@@ -17,8 +17,8 @@ spec:
           name: {{ .Release.Name }}-{{ .Chart.Name }}
           ports:
             - containerPort: 3000
-              hostPort: 3000
       restartPolicy: Always
+      imagePullPolicy: Always
       env:
         - name: BACKEND_URI
           valueFrom:

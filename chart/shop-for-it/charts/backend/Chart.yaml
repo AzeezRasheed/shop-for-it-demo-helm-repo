@@ -1,6 +1,6 @@
 apiVersion: v2
 name: shop-for-it-backend
-description: A helm Chart for Shop For It Backend 0.1.2
+description: A helm Chart for Shop For It Backend 0.1.3
 appVersion: "1.0"
-version: 0.1.2
+version: 0.1.3
 type: application

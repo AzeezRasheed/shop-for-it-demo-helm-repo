@@ -17,9 +17,8 @@ spec:
           name: {{ .Release.Name }}-{{ .Chart.Name }}
           ports:
             - containerPort: 5000
-              hostPort: 5000
-              protocol: TCP
       restartPolicy: Always 
+      imagePullPolicy: Always
       env:
         - name: MONGODB_URI
           valueFrom:

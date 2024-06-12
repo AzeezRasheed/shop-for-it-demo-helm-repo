@@ -2,7 +2,7 @@ config:
   backend_uri: "http://backend.minikube.local"
 image:
   repository: dahumbletechboy/shop-for-it
-  tag: "2.0"
+  tag: "2.1"
 replicaCount: 2
 service:
   type: LoadBalancer
