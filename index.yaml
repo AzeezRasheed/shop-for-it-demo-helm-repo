@@ -3,12 +3,12 @@ entries:
   shop-for-it:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-06-12T13:43:12.608165+01:00"
-    description: A helm Chart for Shop For It 1.0
-    digest: 7a5df407a33810b03d40f4a9b1ac722218bdfefcc7abfdc842fefc221cb206a8
+    created: "2024-06-12T13:52:23.588105+01:00"
+    description: A helm Chart for Shop For It 0.1.2
+    digest: 4943d57f5fbfbb950f06ed063c27e44c63a8ed9d06ecafc9d91d70d261e7937a
     name: shop-for-it
     type: application
     urls:
-    - https://azeezrasheed.github.io/shop-for-it-demo-helm-repo/shop-for-it/shop-for-it-0.1.0.tgz
-    version: 0.1.0
-generated: "2024-06-12T13:43:12.607581+01:00"
+    - https://azeezrasheed.github.io/shop-for-it-demo-helm-repo/shop-for-it/shop-for-it-0.1.2.tgz
+    version: 0.1.2
+generated: "2024-06-12T13:52:23.58772+01:00"
