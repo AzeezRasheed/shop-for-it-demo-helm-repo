@@ -3,9 +3,16 @@ config:
 image:
   repository: dahumbletechboy/shop-for-it
   tag: "2.1"
-replicaCount: 2
+replicaCount: 1
 service:
   type: LoadBalancer
   port: 80
 ingress:
   host: frontend.minikube.local
+resources:
+  requests:
+    memory: "512Mi"
+    cpu: "250m"
+  limits:
+    memory: "1Gi"
+    cpu: "500m"
