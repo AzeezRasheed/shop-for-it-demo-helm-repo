@@ -3,7 +3,7 @@ secret:
 image:
   repository: dahumbletechboy/shop-for-it-server
   tag: "2.1"
-replicaCount: 2
+replicaCount: 1
 service:
   type: LoadBalancer
   port: 80
