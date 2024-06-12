@@ -4,11 +4,14 @@ metadata:
   labels:
     name: {{ .Release.Name }}-{{ .Chart.Name }}
   name: {{ .Release.Name }}-{{ .Chart.Name }}
+  annotations:
+  service.beta.kubernetes.io/aws-load-balancer-type: nlb
+  service.beta.kubernetes.io/aws-load-balancer-internal: "false"
+  service.beta.kubernetes.io/aws-load-balancer-cross-zone-load-balancing-enabled: "true"
 spec:
   type: {{ .Values.service.type }}
   ports:
-    - protocol: "TCP"
-      port: {{ .Values.service.port }}
-      targetPort: 5000
+    - name: web
+    port: {{ .Values.service.port }}
   selector:
     app: {{ .Release.Name }}-{{ .Chart.Name }}

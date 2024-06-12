@@ -5,7 +5,7 @@ image:
   tag: v1
 replicaCount: 1
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 80
 ingress:
   host: backend.minikube.local
