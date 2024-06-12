@@ -1,0 +1,6 @@
+apiVersion: v2
+name: shop-for-it-frontend
+description: A helm Chart for Shop For It Frontend 1.0
+appVersion: "1.0"
+version: 0.1.0
+type: application
