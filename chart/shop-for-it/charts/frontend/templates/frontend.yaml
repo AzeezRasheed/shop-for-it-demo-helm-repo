@@ -15,13 +15,6 @@ spec:
       containers:
         - image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
           name: {{ .Release.Name }}-{{ .Chart.Name }}
-          {% comment %} resources:
-            requests:
-              memory: {{ .Values.resources.requests.memory }}
-              cpu: {{ .Values.resources.requests.cpu }}
-            limits:
-              memory: {{ .Values.resources.limits.memory }}
-              cpu: {{ .Values.resources.limits.cpu }} {% endcomment %}
           ports:
             - containerPort: 3000
       restartPolicy: Always
