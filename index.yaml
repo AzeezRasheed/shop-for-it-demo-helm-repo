@@ -9,6 +9,6 @@ entries:
     name: shop-for-it
     type: application
     urls:
-    - https://github.com/AzeezRasheed/shop-for-it-demo-helm-repo.git/shop-for-it-0.1.0.tgz
+    - https://azeezrasheed.github.io/shop-for-it-demo-helm-repo/shop-for-it-0.1.0.tgz
     version: 0.1.0
 generated: "2024-06-12T03:13:26.969156+01:00"
