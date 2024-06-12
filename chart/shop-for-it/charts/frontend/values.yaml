@@ -9,10 +9,10 @@ service:
   port: 80
 ingress:
   host: frontend.minikube.local
-resources:
-  requests:
-    memory: "600Mi"
-    cpu: "250m"
-  limits:
-    memory: "800Mi"
-    cpu: "500m"
+# resources:
+#   requests:
+#     memory: "600Mi"
+#     cpu: "250m"
+#   limits:
+#     memory: "800Mi"
+#     cpu: "500m"
